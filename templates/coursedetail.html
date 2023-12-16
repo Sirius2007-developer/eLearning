@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<img src="{{cour.img.url}}">
+<h1>Course name: {{cour.name}}</h1>
+<h1>Cost: {{cour.cost}}</h1>
+<h1>Tutor name: {{cour.tutor}}</h1>
+<h1>Time: {{cour.time}}</h1>
+<h1>The number of students: {{cour.count}}</h1>
+{% endblock content %}
